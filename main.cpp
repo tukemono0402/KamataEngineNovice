@@ -23,12 +23,13 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 	int pos2Y = 400;    //円2のY座標
 	int radius2 = 100;      //円2の半径
 
-	int Color = ;          //赤色
+	int Color = RED;          //赤色
 
 	int speed = 10;     //speedの速度
 	double extent1 = pos2X - pos1X;   //  Xの範囲
 	double extent2 = pos2Y - pos1Y;   //  Yの範囲
-	float distance = static_cast<float>(extent1 * extent1 + extent2 * extent2);
+	float distance;
+		distance= static_cast<float>(extent1 * extent1 + extent2 * extent2);
 
 
 
